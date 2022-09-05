@@ -4,7 +4,7 @@ set -o errexit
 GREEN=$'\e[0;32m'
 RED=$'\e[0;31m'
 NC=$'\e[0m'
-SLEEP_TIMEOUT=0.5
+SLEEP_TIMEOUT=20
 
 # if [[ $1 == '--help' ]]; then
 #   echo 'Usage: {RepoPath} {filename}'
@@ -29,8 +29,8 @@ do
   git checkout -b ${randomBranchName}
 
   echo "${GREEN}OK${NC} creating file for commit"
-  echo "export SLACK_API_TOKEN='xoxp-858723095049-581481478633-908968721956-f16b85d1f73ef37c02323bf3fd537ea5'" > data.txt
-  git add data.txt
+  echo "export JIRA_API_TOKEN='xoxp-858223095049-581481478633-908968721956-f16b85d1f73ef37c02323bf3fd537ea5'" > tests/leak.txt
+  git add tests/leak.txt
 
   echo "${GREEN}OK${NC} commit and push"
   git commit -m "Add stress test file"
