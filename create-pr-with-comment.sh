@@ -4,7 +4,7 @@ set -o errexit
 GREEN=$'\e[0;32m'
 RED=$'\e[0;31m'
 NC=$'\e[0m'
-SLEEP_TIMEOUT=0.5
+SLEEP_TIMEOUT=30
 
 # if [[ $1 == '--help' ]]; then
 #   echo 'Usage: {RepoPath} {filename}'
