@@ -210,3 +210,5 @@ Feel free to share loss porn, memes or any questions at:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/DidierRLopes
 
+
+
