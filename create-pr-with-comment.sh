@@ -46,4 +46,3 @@ do
   echo "${GREEN}Goint to sleep for ${SLEEP_TIMEOUT}${NC}"
 	sleep ${SLEEP_TIMEOUT}
 done
-
